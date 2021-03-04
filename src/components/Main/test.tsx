@@ -9,7 +9,7 @@ describe('<Main />', () => {
       screen.getByRole('heading', { name: /boilerplate/i })
     ).toBeInTheDocument()
 
-    expect(container.firstChild).toMatchSnapshot()
+    expect(container).toMatchSnapshot()
   })
 
   it('should render the text color correctly', () => {
