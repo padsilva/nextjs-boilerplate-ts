@@ -4,7 +4,7 @@ type Props = {
   title: string
 }
 
-export default function Home({title = 'Boilerplate - TS'} : Props) {
+export default function Home({ title = 'Boilerplate - TS' }: Props) {
   return (
     <div>
       <Head>
@@ -18,8 +18,7 @@ export default function Home({title = 'Boilerplate - TS'} : Props) {
         </h1>
 
         <p>
-          Get started by editing{' '}
-          <code>pages/index.js</code>
+          Get started by editing <code>pages/index.js</code>
         </p>
 
         <div>
@@ -33,16 +32,12 @@ export default function Home({title = 'Boilerplate - TS'} : Props) {
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-          >
+          <a href="https://github.com/vercel/next.js/tree/master/examples">
             <h3>Examples &rarr;</h3>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          >
+          <a href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app">
             <h3>Deploy &rarr;</h3>
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
@@ -57,8 +52,7 @@ export default function Home({title = 'Boilerplate - TS'} : Props) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" />
+          Powered by <img src="/vercel.svg" alt="Vercel Logo" />
         </a>
       </footer>
     </div>
