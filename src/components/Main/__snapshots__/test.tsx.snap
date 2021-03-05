@@ -67,7 +67,7 @@ exports[`<Main /> should render the heading 1`] = `
     <h2
       class="c3"
     >
-      TypeScript, React, NextJS and Styled Components
+      TypeScript, ReactJS, NextJS and Styled Components
     </h2>
   </main>
 </div>

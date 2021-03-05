@@ -2,7 +2,10 @@ import Image from 'next/image'
 
 import * as S from './styles'
 
-const Main = () => (
+const Main = ({
+  title = 'Boilerplate',
+  description = 'TypeScript, ReactJS, NextJS and Styled Components'
+}) => (
   <>
     <S.Background>
       <Image
@@ -14,10 +17,8 @@ const Main = () => (
       />
     </S.Background>
     <S.Wrapper>
-      <S.Title>Boilerplate</S.Title>
-      <S.Description>
-        TypeScript, React, NextJS and Styled Components
-      </S.Description>
+      <S.Title>{title}</S.Title>
+      <S.Description>{description}</S.Description>
     </S.Wrapper>
   </>
 )

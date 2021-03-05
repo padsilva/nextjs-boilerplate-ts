@@ -7,7 +7,7 @@ import GlobalStyle from 'styles/global'
 const App = ({ Component, pageProps }: AppProps) => (
   <>
     <Head>
-      <title>Boilerplate - TS</title>
+      <title>Boilerplate TypeScript</title>
       <link
         rel="apple-touch-icon"
         sizes="180x180"
