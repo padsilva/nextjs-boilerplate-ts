@@ -1,5 +1,6 @@
 import { AppProps } from 'next/app'
 import Head from 'next/head'
+import GithubCorner from 'react-github-corner'
 
 import GlobalStyle from 'styles/global'
 
@@ -30,6 +31,8 @@ const App = ({ Component, pageProps }: AppProps) => (
         color="#000000"
       />
       <link rel="shortcut icon" href="/favicon/favicon.ico" />
+      <link rel="manifest" href="/manifest.json" />
+      <meta name="theme-color" content="#ffffff" />
       <meta
         name="description"
         content="A boilerplate to work with TypeScript, React, NextJS and Styled Components"
@@ -37,6 +40,13 @@ const App = ({ Component, pageProps }: AppProps) => (
     </Head>
     <GlobalStyle />
     <Component {...pageProps} />
+    <GithubCorner
+      href="https://github.com/padsilva/nextjs-boilerplate-ts"
+      bannerColor="#fff"
+      octoColor="#000"
+      target="_blank"
+      rel="noopener"
+    />
   </>
 )
 
