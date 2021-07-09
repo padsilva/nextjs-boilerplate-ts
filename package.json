@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint src --max-warnings=0",
     "test": "jest",
+    "test:ci": "jest --runInBand",
     "prepare": "husky install"
   },
   "lint-staged": {
