@@ -4,7 +4,7 @@ import * as S from './styles'
 
 const Main = ({
   title = 'Boilerplate',
-  description = 'TypeScript, ReactJS, NextJS and Styled Components'
+  description = 'TypeScript, ReactJS, Next.js and Styled Components'
 }) => (
   <>
     <S.Background>

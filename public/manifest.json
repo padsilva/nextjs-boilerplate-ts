@@ -30,7 +30,7 @@
     }
   ],
   "background_color": "#ffffff",
-  "description": "A boilerplate to work with TypeScript, React, NextJS and Styled Components",
+  "description": "A boilerplate to work with TypeScript, React, Next.js and Styled Components.",
   "display": "fullscreen",
   "start_url": "/",
   "theme_color": "#ffffff"
